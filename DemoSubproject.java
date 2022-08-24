@@ -1,6 +1,5 @@
 package subproject;
 let val; 
-let unused;
 public class DemoSubproject {
 
 	public static void main(String[] args) { 
