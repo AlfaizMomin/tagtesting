@@ -98,9 +98,5 @@ public class DemoSubproject {
      }
     return foo;
  }
-
- public static DemoSubproject sum (){
-  foo = new DemoSubproject();
- }
  
 }
