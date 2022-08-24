@@ -1,15 +1,14 @@
 package subproject;
-
+let val; 
 public class DemoSubproject {
 
 	public static void main(String[] args) { 
 		int k_subproject;
 		
 	}
-	
+		private static DemoSubproject one = 1;
+	private static DemoSubproject two = 2;
 	private static DemoSubproject foo = null;
-	
-	
 	//multiple simultaneous callers may see partially initialized objects
 
  public static DemoSubproject getFoo() { 
@@ -19,6 +18,7 @@ public class DemoSubproject {
 
 	    System.out.println(""); 
 	    System.out.println("");
+		
 	    System.out.println("");
 	    System.out.println("");
 	    System.out.println("");
