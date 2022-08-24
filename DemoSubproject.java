@@ -1,5 +1,5 @@
 package subproject;
-
+let val;
 public class DemoSubproject {
 
 	public static void main(String[] args) { 
@@ -8,8 +8,6 @@ public class DemoSubproject {
 	}
 	
 	private static DemoSubproject foo = null;
-	
-	
 	//multiple simultaneous callers may see partially initialized objects
 
  public static DemoSubproject getFoo() { 
