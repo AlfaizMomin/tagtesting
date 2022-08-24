@@ -1,6 +1,6 @@
 package subproject;
 let val; 
-let va2; 
+let unused;
 public class DemoSubproject {
 
 	public static void main(String[] args) { 
@@ -95,10 +95,6 @@ public class DemoSubproject {
 
  public static DemoSubproject getFoo2() {
      if (foo==null) {
-         foo = new DemoSubproject();
-     }
-    return foo;
- }
-
+         foo = new DemoSubproject
  
 }
