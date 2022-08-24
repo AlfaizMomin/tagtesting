@@ -6,7 +6,8 @@ public class DemoSubproject {
 		int k_subproject;
 		
 	}
-	
+		private static DemoSubproject one = 1;
+	private static DemoSubproject two = 2;
 	private static DemoSubproject foo = null;
 	//multiple simultaneous callers may see partially initialized objects
 
@@ -96,6 +97,10 @@ public class DemoSubproject {
          foo = new DemoSubproject();
      }
     return foo;
+ }
+
+ public static DemoSubproject sum (){
+  foo = new DemoSubproject();
  }
  
 }
