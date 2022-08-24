@@ -94,6 +94,10 @@ public class DemoSubproject {
 
  public static DemoSubproject getFoo2() {
      if (foo==null) {
-         foo = new DemoSubproject
+         foo = new DemoSubproject();
+     }
+    return foo;
+ }
+
  
 }
