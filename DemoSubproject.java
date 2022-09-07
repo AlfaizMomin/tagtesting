@@ -8,7 +8,7 @@ public class DemoSubproject {
 
 	public static void main(String[] args) { 
 		int k_subproject;
-		
+	}
 	}
 		private static DemoSubproject one = 1;
 	private static DemoSubproject two = 2;
