@@ -2,11 +2,13 @@ package subproject;
 let val; 
 
 public class DemoSubproject {
+let val; 
 
 	public static void main(String[] args) { 
 		int k_subproject;
 		
-	}
+	}let val; 
+{
 		private static DemoSubproject one = 1;
 	private static DemoSubproject two = 2;
 	private static DemoSubproject foo = null;
